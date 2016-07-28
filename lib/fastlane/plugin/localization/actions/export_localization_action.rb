@@ -11,7 +11,7 @@ module Fastlane
       end
 
       def self.description
-        "Export/import app localizations with help of xcodebuild -exportLocalizations/-importLocalizations tool"
+        "Export app localizations with help of xcodebuild -exportLocalizations tool"
       end
 
       def self.authors
