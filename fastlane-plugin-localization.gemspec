@@ -7,10 +7,10 @@ Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-localization'
   spec.version       = Fastlane::Localization::VERSION
   spec.author        = %q{Viktor Malyi}
-  spec.email         = %q{viktor.malyi@garmin.com}
+  spec.email         = %q{viktor.malyi@gmail.com}
 
   spec.summary       = %q{Export/import app localizations with help of xcodebuild -exportLocalizations/-importLocalizations tool}
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-localization"
+  # spec.homepage      = "https://github.com/malyi/fastlane-plugin-localization"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
