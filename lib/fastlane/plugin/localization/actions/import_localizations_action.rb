@@ -1,6 +1,6 @@
 module Fastlane
   module Actions
-    class ImportLocalizationAction < Action
+    class ImportLocalizationsAction < Action
       def self.run(params)
         source_path = params[:source_path]
         project = params[:project]

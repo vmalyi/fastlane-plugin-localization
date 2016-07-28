@@ -1,6 +1,6 @@
 module Fastlane
   module Actions
-    class ExportLocalizationAction < Action
+    class ExportLocalizationsAction < Action
       def self.run(params)
         destination_path = params[:destination_path]
         project = params[:project]
