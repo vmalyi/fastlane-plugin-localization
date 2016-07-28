@@ -2,10 +2,10 @@ module Fastlane
   module Actions
     class ExportLocalizationAction < Action
       def self.run(params)
-        UI.message("Export localizations")
-
         destination_path = params[:destination_path]
         project = params[:project]
+
+        UI.message("Exporting localizations from #{project} to #{destination_path} folder")
 
         sh "xcodebuild -exportLocalizations -localizationPath #{destination_path} -project #{project}"
       end
