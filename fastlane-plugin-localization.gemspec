@@ -10,14 +10,12 @@ Gem::Specification.new do |spec|
   spec.email         = %q{viktor.malyi@gmail.com}
 
   spec.summary       = %q{Export/import app localizations with help of xcodebuild -exportLocalizations/-importLocalizations tool}
-  # spec.homepage      = "https://github.com/malyi/fastlane-plugin-localization"
+  spec.homepage      = "https://github.com/vmalyi/fastlane-plugin-localization"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
-
-  # spec.add_dependency 'your-dependency', '~> 1.0.0'
 
   spec.add_development_dependency 'pry'
   spec.add_development_dependency 'bundler'
