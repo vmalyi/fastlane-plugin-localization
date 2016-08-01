@@ -15,7 +15,7 @@ module Fastlane
       end
 
       def self.authors
-        ["Viktor Malyi"]
+        ["vmalyi"]
       end
 
       def self.available_options
@@ -34,7 +34,6 @@ module Fastlane
       end
 
       def self.is_supported?(platform)
-          [:ios, :mac].include?(platform)
           true
       end
     end

@@ -14,13 +14,12 @@ fastlane add_plugin localization
 
 Export/import app localizations with help of xcodebuild -exportLocalizations/-importLocalizations tool
 
-**Note to author:** Add a more detailed description about this plugin here. If your plugin contains multiple actions, make sure to mention them here.
+Using it is Apple's recommended approach when dealing with localizations. Read more info [here](https://developer.apple.com/library/ios/documentation/MacOSX/Conceptual/BPInternational/LocalizingYourApp/LocalizingYourApp.html#//apple_ref/doc/uid/10000171i-CH5-SW13).
 
 ## Example
 
-Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`. 
+Check out the [example `Fastfile`](fastlane/Fastfile) to see how to use this plugin. Try it by cloning the repo, running `fastlane install_plugins` and `bundle exec fastlane test`.
 
-**Note to author:** Please set up a sample project to make it easy for users to explore what your plugin does. Provide everything that is necessary to try out the plugin in this project (including a sample Xcode/Android project if necessary)
 
 ## Run tests for this plugin
 
@@ -28,12 +27,7 @@ To run both the tests, and code style validation, run
 
 ````
 rake
-```
-
-To automatically fix many of the styling issues, use 
-```
-rubocop -a
-```
+````
 
 ## Issues and Feedback
 
